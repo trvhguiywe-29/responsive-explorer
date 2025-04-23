@@ -8,3 +8,10 @@ body{
 .textcenter{
     text-align: center;
 }
+.roboto{
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal
+}
+.jumbotron button{
+    color:black
+}
