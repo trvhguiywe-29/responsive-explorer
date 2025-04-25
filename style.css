@@ -15,3 +15,8 @@ body{
 .jumbotron button{
     color:black
 }
+footer{
+    align-self: end;
+    position:relative;
+    bottom:-20px;
+}
