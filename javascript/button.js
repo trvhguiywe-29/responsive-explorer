@@ -25,6 +25,7 @@ $(document).on('click', '#submit', function () {
         $('.aaaa').append("<br> <div class='blogpost'> <div class='jumbotron' id='createdblog'</div> </div>");
         $("#createdblog").append("<h2 class='roboto'>" + $("#title").val() + "</h2>")
         $("#createdblog").append("<div class='row'> <img src='" + $("#imagelink").val() + "' class='col-sm-4' /> <p class='col-sm-8'>" + $("#content").val() + "</p> </div>")
+        $(".aaaa").append("<p>Note: This blog post is local, and does not save. If you want to submit this blog post, <a href='contact.html'>Contact Us.</a></p>")
     }
     
 })

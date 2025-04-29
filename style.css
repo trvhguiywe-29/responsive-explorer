@@ -15,6 +15,9 @@ body{
 .jumbotron button{
     color:black
 }
+.jumbotron input {
+    color: black
+}
 footer{
     align-self: end;
     position:relative;
