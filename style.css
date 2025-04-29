@@ -1,8 +1,8 @@
 body{
-    background-color:#aaaaaa
+    background-color:#eeeeee
 }
 .jumbotron{
-    background-color:#280000;
+    background-color:#004466;
     color:white
 }
 .textcenter{
@@ -29,16 +29,26 @@ button {
     font-family: "Roboto Condensed", sans-serif;
     font-style: normal
 }
+.blogpost h2, .blogpost img, .blogpost p {
+    margin: 10px
+}
+.newblogs{
+    margin: 20px
+}
+.newblogs .blogpost{
+    margin: -20px /*Cancels the margin*/
+}
 .flex-container{
     display:flex;
     justify-content:center;
 }
-.flex-container > div{
-    width:100px;
-    background-color:#280000;
-    color:white;
-    text-align:center;
-    line-height:50px;
-    margin:10px;
-    border-radius:10px;
-}
+    .flex-container > div {
+        width: 100px;
+        background-color: #004466;
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
